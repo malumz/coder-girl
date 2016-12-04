@@ -1,9 +1,17 @@
 /*---------------------------------------------------------------------------HEADER*/
+
+
 header nav ul li a {
-	color: gray; }
+	color: gray;
+	display: inline-block; }
 
 .menu h3 {
 	color: gray;
+	display: inline-block;
+}
+
+.icon-menu{
+	display: none;
 }
 
 header .menu {
@@ -19,25 +27,25 @@ header .background-img {
 }
 
 header .frase {
-	color: white;
+	color: #FFF;
 	margin: 0;
 	 padding-top: 9%;
-    padding-bottom: 18%;
+    padding-bottom: 20%;
 }
 
-.header-button p {
+.background-img p {
 	color: black;
 	width: 90%;
-	margin-left: 0 }
+	margin-left: 3%; }
 
-.header-button button {
+.background-img button {
 	 background-color: rgba(84,126,183,0.8);
     border-radius: 7px;
-    padding: 5px 15px;
+    padding: 5px 8px;
     font-size: 100%;
-    color: white;
-    margin-bottom: 8%;
-    margin: 0 40%;  }
+    color: #FFF;
+    margin-bottom: 7%;
+    margin: 0 44%;  }
 /*---------------------------------------------------------------------DOCUMENTAL*/
 .documental h2 {
 	margin-bottom: 4%; }
@@ -45,12 +53,77 @@ header .frase {
 .documental h3 {
 	margin-bottom: 5%; }
 
+.documental .text1 {
+	padding: 0 2.5%;
+}
+
 /*----------------------------------------------------------------------HACKATHON*/
 .hackathon {
 	margin-top: 5%;
-	background-color: yellow;  }
+	background-color: yellow;
+
+	width: 100%;  }
+
+.hackathon .text {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-right: 20px solid yellow; }
+
 
 .hackathon img {
-	height: 250px;
-	
+	height: 350px;
+	width: 100%;
+	border-top: 40px solid yellow;
+	border-bottom: 40px solid yellow; }
+
+.hackathon button {
+	 background-color: rgba(84,126,183,1);
+    border-radius: 7px;
+    padding: 5px 8px;
+    font-size: 100%;
+    color: white;
+    margin-bottom: 8%; }
+/*---------------------------------------------------------------------CONTACTANOS*/
+.contacto {
+	margin-top: 5%; }
+
+.contacto img {
+	margin-top: 9%; }
+
+.contacto p input {
+	width: 70%; }
+
+.contacto p textarea {
+	width: 70%;
+	height: 100px; }
+
+.contacto .enviar {
+	color: #FFF;
+	border: none;
+	background-color: rgba(84,126,183,1);
+    border-radius: 4px;
+    padding: 5px 10px;
 }
+/*--------------------------------------------------------------------------FOOTER*/
+footer {
+	background-color: #4497a3;
+	margin-top: 4%; }
+
+footer p {
+	color: #fff;
+	padding: 25px 0; }
+
+footer p span {
+	color: #b6cf5f; }
+
+
+
+
+
+
+
+
+
+
+
+

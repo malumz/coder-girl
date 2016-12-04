@@ -1,0 +1,81 @@
+
+/*----------------------------------------------------------------------MAX-WIDTH:920px*/
+
+@media screen and (max-width:992px){
+    .container{
+        width: 750px;
+    }
+    
+    header {
+    	width: 100%;
+    }
+
+	header .menu h3 {
+		display: inline-block;
+        width: 60%;
+    }
+
+	header nav ul {
+	
+	margin-top: 5%;  }
+
+header .list-inline a {
+	color: white;
+	font-size: 15px;   }
+
+   } 
+
+   .hackathon img {
+    height: 300px;
+    width: 95%; } }
+
+/*----------------------------------------------------------------------MAX-WIDTH:600px*/
+@media screen and ( max-width:600px){
+     
+    .container{
+        width: 100%;
+    }
+header .menu h3 {
+        display: inline-block;
+        width: 40%;
+
+    }
+header .row {
+
+}
+
+	.icon-menu{
+	display: inline-block;
+	float: right;
+	color: #ccc;
+	font-size: 30px;
+    margin-bottom: 10px; 
+}
+
+
+    header nav ul {
+		display: none; }
+    
+    .col-md-6, .col-md-4, .col-md-7, col-md-5{
+        width: 100%;
+    }
+    .block-form{
+        margin: 0;
+    }
+}
+/*----------------------------------------------------------------------MAX-WIDTH:510px*/
+@media screen and ( max-width:510px){
+	.container{
+        width: 100%;
+    }
+
+    header nav ul {
+		display: none; }
+    
+    .icon-menu{
+    display: inline-block;
+    float: right;
+    color: #ccc;
+    font-size: 30px;
+    margin-bottom: 10px; 
+}

@@ -5,21 +5,23 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/style.css">
 	<title>Coder Girl</title>
 </head>
-<body>
+<body class="visible-xs-screen">
 <!--.........................................................................................................-HEADER-->
 	<header>
 		<div class="container">
     <div class="menu">
 			<div class="row">
 			      <div class="col-md-3">
-                         <p><h3>Code Girls</h3></p>
+                         <h3>Code Girls</h3>
                   </div>
 				<span class="icon-menu"></span>
               <div class="col-md-9">
                   <p><nav>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav nav-tabs navbar-right">
                            <li><a href="#inicio">Inicio</a></li>
                            <li><a href="#documental">Documental</a></li>
                            <li><a href="#hackaton">Hackaton</a></li>
@@ -31,29 +33,25 @@
       </div>
 
       <div class="background-img">
-			<div class="frase">
+			   <div class="frase">
               <h1 class="text-center">CHICAS QUE CAMBIAN AL MUNDO</h1>
-          
-
-		<div class="header-button">
-                     <p class="text-center">¡Participa en nuestras actividades!</p>
+              <p class="text-center">¡Participa en nuestras actividades!</p>
                    <button class="text-center">Inscríbete</button>
                  </div>
              </div> 
           </div>
-      </div>
-      </div>
-     </div>
 	</header>
 <!--..........................................................................................................DOCUMENTAL-->
-<section class="documental">
+<section class="documental"><a name="documental"></a>
 	<div class="container">
 	   <h2 class="text-center">VE NUESTRO DOCUMENTAL</h2>
 		<div class="row">
 			   <div class="col-md-6">
+                  <div class="text1">
                     <h3 class="text-center">CODE GIRLS</h3>
                     <p>El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias (provenientes de Estados Unidos, Brasil, India y Mexico)que, junto con un mentor o una mentora que acompaña su experiencia,disponen de tres meses para crear un plan de negocios y un aplicación que resuelva problemas en sus comunidades, en el marco de la competencia Technovation.<br><br> De la competencia expuesta en el documental participaron 300 equipos, de los cuales 44 llegaron a la semifinal, luego seis resultaron finalistas y finalmente el ganador recibió un premio de 10.000 dólares.</p>
                     </div>
+                  </div>
                 
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -63,7 +61,7 @@
 	</div>
 	</div>
 <!--.............................................................................................-HACKATHON-->
-	<div class="hackathon">
+	<div class="hackathon"><a name="hackaton"></a>
 		<div class="container">
 			<div class="row">
 				 
@@ -72,39 +70,42 @@
                     </div>
 
                     <div class="col-md-6">
+                    <div class="text">
                     <h3 class="text-center">HACKATHON</h3>
                     <p>¡Participa en nuestra Hackathon "Love is Respect"!<br><br> El objetivo de User Testing 360 es identificar situaciones confusas de los usuarios en su web y decribir soluciones, que garanticen una experiencia de uso satisfactoria</p>
-                    
+                       <button class="text-center">Inscríbete</button>
+                </div>
                 </div>
 			</div>
 		</div>
 	</div>
 
 <!--...........................................................................................-CONTACTANOS-->
-<div class="contacto">
+<div class="contacto"><a name="contacto"></a>
 	<div class="container">
 		<div class="row">
 					
-			<div class="col-md-6">
+			<div class="col-md-8">
             <img class="img-responsive" src="img/made_with_code.jpg">
             </div>
 
-			<div class="col-md-6">
+			<div class="col-md-4">
+            <div class="formulario">
             <h3>CONTACTO</h3>
             <span><strong>Code Girls</strong></span><br>
             <span>795 Folsom Ave<br> San Francisco, CA 94107 <br>Fono:(123)456-7890</span>
-             <h2><a name="contact"></a>Contáctanos</h2>
-            <form action="">
-                    <p><input type="text" name="cabeza" placeholder="Nombre"><p>
+            <form action=""><br>
+                    <p><input type="text" name="cabeza" placeholder="Nombre"></p>
                        
-                    <p><input type="text" name="carta" placeholder="Email"><p>
+                    <p><input type="text" name="carta" placeholder="Email"></p>
 
 
-                    <p><input type="text" name="carta" placeholder="Asunto"><p>
+                    <p><input type="text" name="carta" placeholder="Asunto"></p>
                        
-                    <p><textarea type="text" id="mensaje" placeholder="Mensaje"></textarea><p>
-                    <input class="enviar" type="submit" value="ENVIAR"><br>
+                    <p><textarea type="text" id="mensaje" placeholder="Mensaje"></textarea></p>
+                    <input class="enviar" type="submit" value="Enviar"><br>
             </form>
+            </div>
             </div>
 		</div>
 	</div>
